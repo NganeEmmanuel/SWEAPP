@@ -15,6 +15,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Project Documentation
 
+## Team Memebers
+
+* Name : NJIANGA Ayouba __ Matricule : ICTU20222964
+* Name: Ngane Emmanuel __ Matricule :ICTU20222972
+* Name: Yohmeh Marc Bian Bilingwe __ Matricule: ICTU20223131
+* Name:Mvogonka Christophe ulrich __ Matricule: ICTU20222936
+* Name: Fosang Che __ Matricule: ICTU20222990
+* Name: Nsaila Ridley.N __ Matricule: ICTU20222976
+* Name :Tanyu Ransom Tuwa __ Matricule : ICTU20233584
+* Name : SHUYE ANITA BERINYU __ Matricule : ICTU2022318
+* Name : Nyapem Joyce Patricia __ Matricule : ICTU20223516
+
 ## Introduction
 The purpose of this document is to outline the requirements for developing an inventory system for our school. The system aims to facilitate the efficient and effective management of assets, resources, and infrastructure used by staff and students, such as equipment, supplies, books, and furniture.
 
@@ -166,29 +178,27 @@ The key stakeholders involved in the project include:
 
 | Phase                                  | Start Date  | End Date    |
 |----------------------------------------|-------------|-------------|
-| Project Initiation Phase               | 2024-01-15  | 2024-02-02  |
-| Requirements Gathering and Analysis    | 2024-02-05  | 2024-03-01  |
-| System Design and Development          | 2024-03-04  | 2024-04-12  |
-| User Documentation and Training        | 2024-04-15  | 2024-05-03  |
-| Testing and Quality Assurance          | 2024-05-06  | 2024-06-14  |
-| Deployment and Rollout                 | 2024-06-17  | 2024-07-05  |
-| Project Closure Phase                  | 2024-07-08  | 2024-07-19  |
+| Project Initiation Phase               | 2023-11-17  | 2023-11-20  |
+| Requirements Gathering and Analysis    | 2023-12-01  | 2023-12-05  |
+| System Design and Development          | 2023-12-10  | 2024-01-01  |
+| User Documentation and Training        | 2024-01-01  | 2024-01-02  |
+| Testing and Quality Assurance          | 2023-12-20  | 2024-01-02  |
+| Deployment and Rollout                 | 2024-01-04  | 2024-02-05  |
+| Project Closure Phase                  | 2024-01-02  | 2024-01-04  |
 
 
 ### Resource Allocation
 Proper resource management is crucial for the successful execution of a project. Assigning the right resources to each phase ensures that the required skills and expertise are available when needed. Below is an overview of the key resources assigned to each phase of the project:
 
-- **Project Initiation Phase**: The Project Manager and Business Analyst are assigned during this phase. The Project Manager oversees the overall project and ensures its alignment with the objectives and stakeholders' expectations. The Business Analyst works closely with stakeholders to gather requirements and define project scope.
+- **Project Initiation Phase**: The Project Manager and Assistant Project manager are assigned during this phase. The Project Manager oversees the overall project and ensures its alignment with the objectives and stakeholders' expectations. The Assistant project manager works closely with stakeholders to gather requirements and define project scope.
 
-- **Requirements Gathering and Analysis**: The Business Analyst takes the lead in this phase, along with the involvement of Subject Matter Experts (SMEs). The SMEs provide domain-specific knowledge and insights to ensure accurate requirement gathering and analysis.
+- **Requirements Gathering and Analysis**: Shuye Anita Berinyu takes the lead in this phase, along with Mvogonka Christophe Ulrich, and Fosang che. They provide domain-specific knowledge and insights to ensure accurate requirement gathering and analysis.
 
-- **System Design and Development**: The System Architect provides expertise in designing the system architecture, while the Developers are responsible for implementing the identified features and functionalities of the inventory system.
+- **System Design and Development**: The System Architect Ngane Emmanuel, provides expertise in designing the system architecture, while the Developers Yohmeh Marc Brian Bilingwe,Nsaila Ridely, and Ngane Emmanuel, are responsible for implementing the identified features and functionalities of the inventory system.
 
-- **User Documentation and Training**: The Technical Writer creates user documentation, including user manuals and guides. Trainers are assigned to conduct training sessions and ensure that users are familiar with the functionalities of the inventory system.
+- **User Documentation and Training**: The Technical Writers Shuye Anita Berinyu, Tanyu Ransom Tuwa, Ngane Emmanuel, Njianga Ayouba, Joyce Patricia, Mvogonka Christophe, and Fosang Che create user documentation, including user manuals and guides.
 
-- **Testing and Quality Assurance**: Testers and Quality Assurance Analysts play a vital role in this phase. They develop and execute test cases, identify bugs and issues, and ensure the system meets the defined requirements and quality standards.
-
-- **Deployment and Rollout**: The IT Support team assists in system installation, configuration, and setup. System Administrators ensure proper backup, disaster recovery mechanisms, and provide ongoing support during the initial system rollout.
+- **Testing and Quality Assurance**: Testers and Quality Assurance Analysts play a vital role in this phase. They develop and execute test cases, identify bugs and issues, and ensure the system meets the defined requirements and quality standards. The entire team participated in the manual user testing, while the designer and developers carried out unit and integration testing.
 
 - **Project Closure Phase**: The Project Manager leads the project closure phase, working closely with stakeholders to conduct a final review and assessment. The involvement of stakeholders is crucial for obtaining feedback and identifying lessons learned for future projects.
 
@@ -381,6 +391,11 @@ The objective of the test is to ensure that login functionality brings the user 
 
 #### Test Steps:
 
+* open workbook
+* Vrify loging window shows properly
+
+![login window]()
+
 * Enter the valid credentials in input boxes provided
 * click on the login button
 * Verify that data the window changes to the main-view window
@@ -391,11 +406,11 @@ The objective of the test is to ensure that login functionality brings the user 
 
 * **Successful login**: Entering the right credentials brings you to the home-page/Main-view of the system as shown below
 
-![inventory system main-view]()
+![inventory system main-view](main-view.png)
 
 * Entering wrong credentials or leaving it blank will display an error messge shown below
 
-![error handling message]()
+![error handling message](login-error.png)
 
 ### Add items functionality
 #### SubUnit 1: Testing Pop-up Display
@@ -420,7 +435,7 @@ The objective of this subunit is to verify that the pop up is displayed correctl
 
 * Successful display of the add item window with all its content
 
-![Add item window]()
+![Add item window](add-item-view.png)
 
 #### SubUnit 2:  Adding of item.
 ##### Objective:
@@ -476,7 +491,7 @@ The objective of this sub unit is to verify that the Edit item window is display
 * Successful display of the edit item window with all its content
 * Successfu; pre-filling of the input boxes.
 
-![Edit menue]()
+![Edit menue](edit-item-view.png)
 
 #### SubUnit 2:  Editing of item.
 ##### Objective:
@@ -555,7 +570,7 @@ The objective of the test is to verify that the "refresh" functionality correctl
 
 #### Test Steps:
 * Click the refresh button,
-* Validate the updated data in the main view by crosschecking the data in "sheet1" and "sheet2" with the respective data in the Listbox1 and ListBox2, and ListBox3. The data in "sheet1" is checked agains the information in "checkBox1" and "checkBox2" and that of "sheet2" against "chekBox3".
+* Validate the updated data in the main view by crosschecking the data in "sheet1" and "sheet2" with the respective data in the Listbox1 and ListBox2, and ListBox3. The data in "sheet1" is checked agains the information in "ListBox1" and "ListBox2" and that of "sheet2" against "ListBox3".
 
 #### Expected Results: 
 The information in all three ListBoxes(1, 2, 3) in the main view reflects the updated data from "Sheet1" and "sheet2" as described in the steps above accurately.
@@ -572,6 +587,8 @@ The objective of this subunit is to verify that the pop-up is displayed correctl
 ##### Features:
 
 * Selecting an item triggers the display of the pop-up.
+
+![Signout item view](signout-view.png)
 * The pop-up contains the required input fields and buttons.
 * The pop-up is positioned correctly and appears as expected on the screen.
 
@@ -721,6 +738,9 @@ To log in to the ICT Department Inventory System, follow these steps:
 
 1. Launch the application by clicking the "Launch App" button found at the top of Sheet1.
 2. A login form will appear, asking for user credentials.
+
+![login Form](login.png)
+
 3. Enter "emmanuel" for the username and "password" for the Password field.
 4. Click the "Login" button at the bottom of the pop-up window.
 5. If the information is entered correctly, you will be taken to the main view/dashboard.
@@ -733,6 +753,9 @@ To add items to the inventory, follow these steps:
 
 1. Click the "Add" button at the top right of the main view/dashboard.
 2. A new window will open with input fields to fill.
+
+![add items](add-item-view.png)
+
 3. Fill in all the required fields denoted by (*).
 4. Click the "Add" button at the bottom right.
 5. You will receive a message indicating that the adding process was successful.
@@ -747,6 +770,9 @@ To edit an existing item in the inventory, follow these steps:
 2. Select the item you wish to edit by clicking on it.
 3. Click the "Edit" button at the top right corner.
 4. A window will open with prepopulated input boxes.
+
+![Edit widnow](edit-item-view.png)
+
 5. Change the required information in any input box.
 6. Click the "Edit" button at the bottom right.
 7. A message box should appear indicating that the item was successfully edited.
@@ -767,6 +793,9 @@ Please exercise caution while deleting items as this action is irreversible.
 To sign out items to institution members, follow these steps:
 
 1. Click the "Sign Items" tab in the main view.
+
+![Signout items window](sign-out-view.png)
+
 2. Select the itemyou wish to sign out by clicking on it.
 3. Click the "Sign Out" button at the top right corner.
 4. A new window will open with a list of institution members.
@@ -778,13 +807,15 @@ Please ensure that you select the correct institution member and provide accurat
 
 ### Return Items
 # 8. Generate Reports
-To generate reports based on the inventory data, follow these steps:
+To return items back to the school storage, follow these steps:
 
-1. Click the "Reports" tab in the main view.
-2. Select the type of report you would like to generate (e.g., "Inventory Summary," "Items Signed Out," etc.).
-3. Click the "Generate Report" button.
-4. A report will be generated and displayed on the screen.
-5. You can print the report or save it as a PDF file using the available options.
+1. Click the "Activities" tab in the main view.
+
+![Activities view](Activities-view.png)
+
+2. Select the item you will like to return
+3. Click the "Return" button
+4. The status of the item should be changed to returned
 
 Please note that the report generation process may take a few moments, depending on the size of the inventory data.
 
